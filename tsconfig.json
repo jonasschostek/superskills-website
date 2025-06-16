@@ -12,11 +12,12 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "../src/*" 
+        "../src/*"
       ]
     },
 
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
   },
   "include": ["src"]
 }
