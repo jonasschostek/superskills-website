@@ -9,13 +9,15 @@
     "skipLibCheck": true,
     "jsx": "react-jsx",
 
-    /* Path Alias Konfiguration - HIER HINZUFÜGEN */
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "../src/*" 
       ]
-    }
+    },
+
+    "resolveJsonModule": true
   },
   "include": ["../src"]
 }
+
